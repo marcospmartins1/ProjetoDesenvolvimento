@@ -1,0 +1,36 @@
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\TelaLoGIN.exe.config
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\TelaLoGIN.exe
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.CadastroClientes.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.CadastroEstoque.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.FormTelaLogin.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.FrmSobre.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.Properties.Resources.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.TelaPrincipal.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.csproj.GenerateResource.cache
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.csproj.CoreCompileInputs.cache
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.exe
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.pdb
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\ProjetoDesenvolvimento.exe.config
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\ProjetoDesenvolvimento.exe
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\ProjetoDesenvolvimento.pdb
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmCadastroFornecedores.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmCadastroProdutos.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmListarClientes.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Properties.Resources.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.csproj.GenerateResource.cache
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.csproj.CoreCompileInputs.cache
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.exe
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.pdb
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.csprojAssemblyReference.cache
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.FrmSobre.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.FrmSobre2.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmSplash.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmCadastroClientes.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmTelaLogin.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmTelaPrincipal.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmCadastroCategoria.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmCadastroUsuarios.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmListarCategoria.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmListarFornecedores.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmListarUsuarios.resources
+C:\Users\marcos.pmoliveira1\Desktop\Projeto Desenvolvimento\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\ProjetoDesenvolvimento.Frms.frmListarProdutos.resources

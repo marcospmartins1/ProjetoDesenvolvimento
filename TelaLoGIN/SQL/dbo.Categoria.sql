@@ -1,0 +1,4 @@
+﻿CREATE TABLE Categoria
+(id_categoria INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+ nome VARCHAR (255) NOT NULL UNIQUE,
+ )

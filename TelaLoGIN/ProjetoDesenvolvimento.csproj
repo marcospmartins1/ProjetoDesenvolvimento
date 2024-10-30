@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE73E5D2-C691-4EF5-9CE7-D69B03412DEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjetoDesenvolvimento</RootNamespace>
+    <AssemblyName>ProjetoDesenvolvimento</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Categoria.cs" />
+    <Compile Include="Classes\Clientes.cs" />
+    <Compile Include="Classes\Fornecedores.cs" />
+    <Compile Include="Classes\Produtos.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Frms\frmCadastroCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmCadastroCategoria.Designer.cs">
+      <DependentUpon>frmCadastroCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmCadastroClientes.Designer.cs">
+      <DependentUpon>frmCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmCadastroFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmCadastroFornecedores.Designer.cs">
+      <DependentUpon>frmCadastroFornecedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmCadastroProdutos.Designer.cs">
+      <DependentUpon>frmCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmCadastroUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmCadastroUsuarios.Designer.cs">
+      <DependentUpon>frmCadastroUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmListarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmListarCategoria.Designer.cs">
+      <DependentUpon>frmListarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmListarFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmListarFornecedores.Designer.cs">
+      <DependentUpon>frmListarFornecedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmListarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmListarProdutos.Designer.cs">
+      <DependentUpon>frmListarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmListarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmListarUsuarios.Designer.cs">
+      <DependentUpon>frmListarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmTelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmTelaLogin.Designer.cs">
+      <DependentUpon>frmTelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmFrmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmFrmSobre.Designer.cs">
+      <DependentUpon>frmFrmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmFrmSobre2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmFrmSobre2.Designer.cs">
+      <DependentUpon>frmFrmSobre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmListarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmListarClientes.Designer.cs">
+      <DependentUpon>frmListarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frms\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lojaecocostaDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaecocostaDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Frms\frmTelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\frmTelaPrincipal.Designer.cs">
+      <DependentUpon>frmTelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frms\frmCadastroCategoria.resx">
+      <DependentUpon>frmCadastroCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmCadastroClientes.resx">
+      <DependentUpon>frmCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmCadastroFornecedores.resx">
+      <DependentUpon>frmCadastroFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmCadastroProdutos.resx">
+      <DependentUpon>frmCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmCadastroUsuarios.resx">
+      <DependentUpon>frmCadastroUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmListarCategoria.resx">
+      <DependentUpon>frmListarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmListarFornecedores.resx">
+      <DependentUpon>frmListarFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmListarProdutos.resx">
+      <DependentUpon>frmListarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmListarUsuarios.resx">
+      <DependentUpon>frmListarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmTelaLogin.resx">
+      <DependentUpon>frmTelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmFrmSobre.resx">
+      <DependentUpon>frmFrmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmFrmSobre2.resx">
+      <DependentUpon>frmFrmSobre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmListarClientes.resx">
+      <DependentUpon>frmListarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Frms\frmTelaPrincipal.resx">
+      <DependentUpon>frmTelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="lojaecocostaDataSet.xsc">
+      <DependentUpon>lojaecocostaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet.xss">
+      <DependentUpon>lojaecocostaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet1.xsc">
+      <DependentUpon>lojaecocostaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet1.xss">
+      <DependentUpon>lojaecocostaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet10.xsc">
+      <DependentUpon>lojaecocostaDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet10.xss">
+      <DependentUpon>lojaecocostaDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet11.xsc">
+      <DependentUpon>lojaecocostaDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet11.xss">
+      <DependentUpon>lojaecocostaDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet12.xsc">
+      <DependentUpon>lojaecocostaDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet12.xss">
+      <DependentUpon>lojaecocostaDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet13.xsc">
+      <DependentUpon>lojaecocostaDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet13.xss">
+      <DependentUpon>lojaecocostaDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet14.xsc">
+      <DependentUpon>lojaecocostaDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet14.xss">
+      <DependentUpon>lojaecocostaDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet15.xsc">
+      <DependentUpon>lojaecocostaDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet15.xss">
+      <DependentUpon>lojaecocostaDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet6.xsc">
+      <DependentUpon>lojaecocostaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet6.xss">
+      <DependentUpon>lojaecocostaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet7.xsc">
+      <DependentUpon>lojaecocostaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet7.xss">
+      <DependentUpon>lojaecocostaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet8.xsc">
+      <DependentUpon>lojaecocostaDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet8.xss">
+      <DependentUpon>lojaecocostaDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet9.xsc">
+      <DependentUpon>lojaecocostaDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="lojaecocostaDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaecocostaDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaecocostaDataSet9.xss">
+      <DependentUpon>lojaecocostaDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SQL\LojaEcoCosta - Documentação.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecocostafuck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecocostafuck1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon-icons.com_52393.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adicionar clientes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adicionar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator_3551.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteCliente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dinheiro.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duvida.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditarCliente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Limpar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logoutt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe_78347.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PesquisarClientes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_arrows_14418.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relatório.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undoarrow_undo_1534.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vendas.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\BancoDeDados.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\TelaLoGIN.exe.config
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\TelaLoGIN.exe
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\bin\Debug\TelaLoGIN.pdb
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.csprojAssemblyReference.cache
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.FormTelaLogin.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.Properties.Resources.resources
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.csproj.GenerateResource.cache
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.csproj.CoreCompileInputs.cache
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.exe
+C:\Users\marcos.pmoliveira1\source\repos\ProjetoDesenvolvimento\TelaLoGIN\obj\Debug\TelaLoGIN.pdb

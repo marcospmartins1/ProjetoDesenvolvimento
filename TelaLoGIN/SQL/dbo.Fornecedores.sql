@@ -1,0 +1,15 @@
+﻿CREATE TABLE Fornecedores
+(id_fornecedor INT PRIMARY KEY IDENTITY(1,1),
+ nome VARCHAR (255) NOT NULL,
+ cnpj BIGINT UNIQUE NOT NULL,
+ datanascimento VARCHAR (20) NOT NULL,
+ sexo VARCHAR (15) NOT NULL,
+ telefonecelular VARCHAR (25) UNIQUE NOT NULL,
+ telefoneresidencial VARCHAR (25) UNIQUE NOT NULL,
+ email VARCHAR (255) UNIQUE NOT NULL,
+ rua VARCHAR (50) NOT NULL,
+ numerocasa INT NOT NULL,
+ bairro VARCHAR (50) NOT NULL,
+ cep INT NOT NULL,
+ estado VARCHAR (50) NOT NULL
+ );
